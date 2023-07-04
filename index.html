@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Qa Engineer Будущего Николай</title>
+  <style>
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    h1 {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes rotate {
+      0% { transform: rotate(0); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .logo {
+      animation: rotate 2s linear infinite;
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .button {
+      animation: bounce 1s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Qa Engineer Будущего Николай</h1>
+  <img class="logo" src="logo.png" alt="Logo" width="100" height="100">
+  <p>Experience the future of Quality Assurance with our innovative solutions.</p>
+  <button class="button" onclick="playSound()">Click me!</button>
+
+  <script>
+    function playSound() {
+      var audio = new Audio('sound.mp3');
+      audio.play();
+    }
+  </script>
+</body>
+</html>
