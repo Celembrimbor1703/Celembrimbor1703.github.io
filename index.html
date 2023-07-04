@@ -30,6 +30,57 @@
     .button {
       animation: bounce 1s ease-in-out infinite;
     }
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  animation: rotate 2s linear infinite;
+}
+
+p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
   </style>
 </head>
 <body>
