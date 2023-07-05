@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #191970;
-    color: #fff;
+    color: #191970;
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFD700;
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h2 {
 
 footer {
     background-color: #191970;
-    color: #fff;
+    color: #191970;
     padding: 20px;
     text-align: center;
 }
